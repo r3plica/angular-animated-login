@@ -1,0 +1,17 @@
+{
+  "name": "r3plica",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "^1.4.0",
+    "angular-mocks": "^1.4.0",
+    "angular-animate": "^1.4.0",
+    "angular-route": "^1.4.0",
+    "angular-sanitize": "^1.4.0",
+    "angular-touch": "^1.4.0",
+    "angular-ui-router": "^1.0.15"
+  },
+  "devDependencies": {
+  },
+  "appPath": "app",
+  "moduleName": "r3plicaApp"
+}
