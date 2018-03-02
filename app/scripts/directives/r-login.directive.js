@@ -1,10 +1,9 @@
 (function () {
     'use strict';
 
-    function directive() {
-        function lnkFn(scope, element, attrs, controller) {
-        }
+    angular.module('r3plicaApp.directives').directive('rLogin', directive);
 
+    function directive() {
         return {
             restrict: 'A',
             templateUrl: 'scripts/directives/r-login.html',
@@ -16,7 +15,9 @@
                 callback: '=rLogin'
             }
         };
-    }
 
-    angular.module('r3plicaApp.directives').directive('rLogin', directive);
+        function lnkFn(scope, element, attrs, controller) {
+            controller.init();
+        };        
+    };
 })();

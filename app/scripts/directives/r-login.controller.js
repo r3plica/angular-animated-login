@@ -1,11 +1,18 @@
 (function () {
     'use strict';
   
-    function controller() {
+    angular.module('r3plicaApp.directives').controller('RLoginController', controller);
+  
+    function controller(rLoginService) {
       var self = this;
 
+      // Bindings
+      self.init = init;
+
       //////////////////////////////////////////////////
-    }
-  
-    angular.module('r3plicaApp.home').controller('RLoginController', controller);
+
+      function init() {
+        rLoginService.init();
+      };
+    };
   })();

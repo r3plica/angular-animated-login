@@ -6,9 +6,7 @@
         'ngRoute',
         'ngSanitize',
         'ngTouch',
-        'ui.router',
-
-        'r3plicaApp.directives',
-        'r3plicaApp.home'
+        
+        'r3plicaApp.directives'
     ]);
 })();
